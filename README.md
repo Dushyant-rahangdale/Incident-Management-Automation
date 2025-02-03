@@ -34,6 +34,8 @@ This project automates incident management using PagerDuty, Slack, AWS EventBrid
 incident-automation/
 │── lambda/
 │   ├── ira_ticket.py
+│── jira_automation/
+│   ├── jira_automation.json
 │── eventbridge/
 │   ├── event_rule.json
 │── docs/
