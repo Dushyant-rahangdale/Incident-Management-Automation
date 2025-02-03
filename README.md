@@ -67,6 +67,16 @@ incident-automation/
    - Configure PagerDuty workflow to create Zoom meetings for incidents.
    - Automate meeting invitations for relevant teams.
 
+## Python Script for Jira Ticket Creation and Slack Notification
+The Python script used in the AWS Lambda function can be found in the repository at:
+
+📂 [`lambda/jira_ticket.py`](lambda/jira_ticket.py)
+
+## Jira Automation for Confluence Page Creation
+The JSON configuration for Jira automation that creates Confluence pages is available at:
+
+📂 [`jira_automation/jira_automation.json`](jira_automation/jira_automation.json)
+
 ## Usage
 - **Incident Trigger**: PagerDuty detects an issue and triggers an alert.
 - **Notification**: Slack receives an automated alert with incident details.
