@@ -1,0 +1,5 @@
+{
+  "source": [{
+    "prefix": "aws.partner/pagerduty.com"
+  }]
+}
